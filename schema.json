@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+    "type": "object",
+    "properties": {
+      "readme": {
+        "type": "string",
+        "title": "T2V-Turbo: Breaking the Quality Bottleneck of Video Consistency Model with Mixed Reward Feedback",
+        "author": "Jiachen Li, Weixi Feng, Tsu-Jui Fu, Xinyi Wang, Sugato Basu, Wenhu Chen, William Yang Wang",
+        "code": "https://github.com/Ji4chenLi/t2v-turbo",
+        "paper": "https://arxiv.org/abs/2405.18750",
+        "page": "https://t2v-turbo.github.io/",
+        "jupyter": "https://github.com/camenduru/t2v-turbo-jupyter",
+        "tags": [
+          "Text to Video"
+        ],
+        "widget": "readme"
+      },
+      "prompt": {
+        "type": "string",
+        "description": "Prompt",
+        "widget": "textarea"
+      },
+      "guidance_scale": {
+        "type": "number",
+        "description": "Guidance Scale"
+      },
+      "num_inference_steps": {
+        "type": "integer",
+        "description": "Num Inference Steps"
+      },
+      "num_frames": {
+        "type": "integer",
+        "description": "Num Frames"
+      },
+      "fps": {
+        "type": "integer",
+        "description": "FPS"
+      },
+      "seed": {
+        "type": "integer",
+        "description": "Seed"
+      },
+      "randomize_seed": {
+        "type": "boolean",
+        "description": "Randomize Seed"
+      }
+    },
+    "buttons": [
+      {
+        "id": "enter",
+        "label": "🥪 Enter"
+      }
+    ]
+  }

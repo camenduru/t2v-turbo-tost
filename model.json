@@ -1,0 +1,9 @@
+{
+    "prompt": "An astronaut riding a horse.",
+    "guidance_scale": 7.5,
+    "num_inference_steps": 4,
+    "num_frames": 16,
+    "fps": 16,
+    "seed": 1234,
+    "randomize_seed": true
+}
