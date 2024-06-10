@@ -1,5 +1,5 @@
 {
-    "prompt": "An astronaut riding a horse.",
+    "prompt": "Clown fish swimming through the coral reef.",
     "guidance_scale": 7.5,
     "num_inference_steps": 4,
     "num_frames": 16,
