@@ -68,6 +68,7 @@ def save_video(video_array, video_save_path, fps: int = 16):
         video_save_path, video, fps=fps, video_codec="h264", options={"crf": "10"}
     )
 
+@torch.inference_mode()
 def generate(input):
     values = input["input"]
     prompt = values["prompt"]
