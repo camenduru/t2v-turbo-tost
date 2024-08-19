@@ -14,7 +14,7 @@ RUN apt update -y && add-apt-repository -y ppa:git-core/ppa && apt update -y && 
 USER camenduru
 
 RUN pip install -q opencv-python imageio imageio-ffmpeg ffmpeg-python av runpod \
-    transformers==4.41.2 diffusers==0.28.0 xformers==0.0.25 omegaconf wandb einops pytorch_lightning kornia open_clip_torch
+    transformers==4.41.2 diffusers==0.28.0 xformers==0.0.25 omegaconf wandb einops pytorch_lightning kornia open-clip-torch==2.24.0
 
 RUN GIT_LFS_SKIP_SMUDGE=1 git clone -b dev https://github.com/camenduru/T2V-Turbo-hf /content/t2v-turbo
 
