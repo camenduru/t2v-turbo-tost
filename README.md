@@ -15,4 +15,4 @@ https://arxiv.org/abs/2405.18750
 https://t2v-turbo.github.io/
 
 ### 🏢 Sponsor
-https://runpod.io
+[https://runpod.io](https://runpod.io?ref=iqi9iy8y)
